@@ -28,6 +28,7 @@ main {
     padding-bottom: 20px;
 }
 
+/* contenitore */
 main .container {
     width: 70%;
     margin: 0 auto;
@@ -40,6 +41,7 @@ main .container {
     
 }
 
+/* stili bottoni top pagina */
 .bottone {
     border-radius: 4px;
     display: inline-block;
@@ -73,6 +75,7 @@ h3 {
     margin-top: 30px;
 }
 
+/* icone triangoli */
 .triangle {
     margin: 5px;
 }
@@ -80,7 +83,9 @@ h3 {
 .triangle::before {
     content: '\25BE';
 }
+/* /icone triangoli */
 
+/* icone checkbox */
 .circle {
     display: inline-block;
     width: 15px;
@@ -102,7 +107,9 @@ h3 {
     color: red;
     font-size: 0.5em;
 }
+/* /icone checkbox */
 
+/* stile tasks */
 .line {
     margin: 10px 5px;
 }
